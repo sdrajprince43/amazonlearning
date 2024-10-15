@@ -2,13 +2,13 @@
 *.log
 .lock
 .tmp
-
+.terraform.lock.hcl
 # ignore ALL files in ANY directory named temp
 temp/
 ..
+.terraform/
 
 #test files
-
 test.tf
 
 
